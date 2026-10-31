@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coba Css - FontStyle</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Redaction+100:ital,wght@0,400;0,700;1,400&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap');
+
+       @font-face {
+            font-family: "Poppins";
+            src: url("fonts/Poppins-Regular.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        h1 {
+            color: crimson;
+            font-size: 50px;
+            text-align: center;
+            font-family:"Redaction 100", serif;
+            font-weight: 500;
+        }
+
+        p {
+            color: blue;
+            font-size: 20px;
+            text-align: center;
+            font-family:"Redaction 70", serif;
+        }
+
+        .font-poppins {
+            font-family: "Poppins", Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium saepe eaque suscipit vero dicta dolorem.</p>
+    <p class="font-poppins">lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+</body>
+</html>
